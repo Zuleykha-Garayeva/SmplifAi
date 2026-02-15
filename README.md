@@ -11,8 +11,8 @@ Bu sənəd tətbiqin əsas modullarında aparılmış testlərin nəticələrini
 
 | №  | Modul        | Test mərhələsi                        | Gözlənilən nəticə                                               | Faktiki nəticə                                               
 |----|--------------|--------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------
-| 1  | Login        | Email daxil etmək                     | Email boş olduqda xəta mesajı göstərilməlidir                  | Xəta mesajı göstərilir                                        
-| 2  | Login        | Şifrə daxil etmək                     | Şifrə boş olduqda xəta mesajı göstərilməlidir                  | Xəta mesajı göstərilir                                        
+| 1  | Login        | Düzgün Emaillə giriş                     | Email boş olduqda xəta mesajı göstərilməlidir                  | Xəta mesajı göstərilir                                        
+| 2  | Login        | Düzgün şifrə ilə  giriş                     | Şifrə boş olduqda xəta mesajı göstərilməlidir                  | Xəta mesajı göstərilir                                        
 | 3  | Login        | Log in butonu aktivliyi               | Mail və şifrə daxil ediləndə buton aktiv olmalıdır             | Buton aktiv olur                                              
 | 4  | Login        | Yanlış məlumat                        | Datalardan biri səhv olduqda “İstifadəçi adı və ya şifrə səhvdir.” mesajı çıxmalıdır | Mesaj çıxır                                                 
 | 5  | Login        | Remember me                           | İstifadəçi məlumatları yadda saxlanmalıdır                      | Avtomatik doldurulur                                        
